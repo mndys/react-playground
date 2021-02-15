@@ -6,4 +6,5 @@ export default {
   component: Card,
 }
 
-export const Default = () => <Card question="?" answer="!" />
+export const withoutAnswer = () => <Card question="?" answer="!" />
+export const withAnswer = () => <Card question="?" answer="!" showAnswer />
